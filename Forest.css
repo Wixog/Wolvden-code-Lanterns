@@ -1,0 +1,204 @@
+body/* Tělo HTML stránky. Skvělé místo pro umístění pravidla pozadí / písma. */
+{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0597f286-4347-433e-a993-229c7ddb2327/dl7xftb-bafefb12-b573-42b8-82dc-01843651d453.jpg/v1/fill/w_1280,h_573,q_75,strp/ad1848f2c800cb08b810c75f36363bb8__2__by_wixog_dl7xftb-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTczIiwicGF0aCI6Ii9mLzA1OTdmMjg2LTQzNDctNDMzZS1hOTkzLTIyOWM3ZGRiMjMyNy9kbDd4ZnRiLWJhZmVmYjEyLWI1NzMtNDJiOC04MmRjLTAxODQzNjUxZDQ1My5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.BbxCNX1mY4gI_mKOz6FZPT4BxI5OSaz9R6SirknyIdc);
+    background-size: cover;
+    background-position: center up;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    font-family: Courier !important;
+    color: #cad0c8 !important;
+}
+.navbar-main/* vrchní navigator s ikonami */
+{
+    background: #0d110b !important;
+    color: #afc49f;
+}
+.navbar-main .nav-link/* link ve vrchní liště */
+{
+    color: #afc49f !important;
+}
+.navbar-status/* tam kde je měna a zprávy */
+{
+    background: #171d15 !important;
+    color: #afc49f;
+    font-style: italic;
+}
+.breadcrumb-nav/* pod měnou a zprávy */
+{
+    background: #0d110b80 !important;
+    font-style: italic;
+}
+#sidebar/* postranní panel */
+{
+    background: #0d110b80;
+}
+#sidebar .card/* carty v postranním panelu */
+{
+    background: #171d15;
+    border-radius: 30px !important;
+    border-bottom: none;
+}
+#sidebar h3,
+#sidebar h4/* záhlaví karet */
+{
+    color: #cad0c8;
+    font-weight: bold;
+    border-style: hidden;
+}
+#main/* Sekce obsahující hlavní obsah webu */
+{
+    background: #0d110b80;
+}
+h1/* Záhlaví titulku */
+{
+    color: #afc49f;
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.nav-tabs/* Sekce obsahující odkazy Doupě a Profil */
+{
+    justify-content: center;
+    border-style: hidden;
+}
+.nav-tabs .nav-link/* Jednotlivé odkazy výše uvedené sekce */
+{
+    color: #cad0c8;
+    font-style: italic;
+    border-radius: 20px;
+    border-style: hidden;
+}
+.nav-tabs .nav-link.active/* Odkaz na prohlíženou stránku */
+{
+    background: #171d15;
+    border-radius: 20px;
+}
+.table/* Tabulky obsahující informace o balíčku nebo uživateli */
+{
+    background: #171d15;
+    border-style: hidden;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table th,
+.table tr:nth-child(even),
+.table tr:nth-child(odd) {
+    background: #171d15 !important;
+}
+.subheader/* Řádek podzáhlaví tabulek Cave (jen den) */
+{
+    background: #171d15 !important;
+}
+.w-50 > a img/* obrázek Lead Wolf. */
+{
+    border-radius: 0px 55px 55px 55px;
+}
+.border-none .card/* Karta obsahující avatara vedoucího vlka (jen den) */
+{
+    background: #171d15 !important;
+}
+.border-none .striped/* Tabulka statistik mezi hlavními a vybranými vlky (jen den) */
+{
+    background: #171d15 !important;
+}
+.w-50 div a img/* Nejlepší sekce vlků */
+{
+    border-radius: 0px 30px 30px 30px;
+}
+.bottom/* Spodní řádek tabulky Informace o členech (jen den) */
+{
+    background: #171d15 !important;
+}
+.alert/* Upozornění a oznámení, která se zobrazují v horní části stránky. */
+{
+    background-image: linear-gradient(to right, #171d15, #171d1500);
+    border-radius: 20px;
+    border-style: hidden;
+    color: #cad0c8
+}
+.progress/* Progress bary. */
+{
+    border-radius: 20px;
+    background: #2f3a2a !important;
+}
+.bg-info/* HP. Tyto jsou modré. */
+{
+    background: #7f9a6f !important;
+}
+.bg-danger/* Hlad. Tyto jsou červené. */
+{
+    background: #afc49f !important;
+}
+.bg-primary/* Nálada. Tyto jsou tmavě modré */
+{
+    background: #bdcfb0 !important;
+}
+.bg-warning/* Energie. Tyhle jsou žluté */
+{
+    background: #e1ecd8 !important;
+}
+.bg-success/* EXP. Tyto jsou zelené */
+{
+    background: #556a4a !important;
+}
+.s-chat__username/*jména v chatu*/
+{
+    font-weight: bold;
+    color: #7f9a6f !important;
+}
+.s-chat-message:nth-child(odd){
+    background: #171d1500 !important;
+}
+.s-chat-message:nth-child(even){
+    background: #0d110b80 !important;
+}
+#chatMessagePinned{
+    background: #0d110b !important;
+    border-style: hidden;
+    color: #7f9a6f !important;
+}
+#chatMessageContainer{
+    color: #bdcfb0 !important;
+    border-style: hidden;
+}
+.s-chat-message_timestamp{
+    color: #cad0c8 !important;
+    font-style: italic;
+}
+#txtChatInput{
+    background: #0d110b !important;
+    border-style: hidden;
+}
+a, /*link*/
+a i,
+a svg {
+    color: #afc49f !important;
+    fill: #afc49f !important;
+    transition: color 0.25s ease, fill 0.25s ease;
+}
+a:hover,
+a:hover i,
+a:hover svg {
+    color: #e1ecd8 !important;
+    fill: #e1ecd8 !important;
+    text-shadow: 0 0 2px #e1ecd8 !important;
+    text-decoration: none;
+}
+.justify-content-between.mb-3 div/* bílí okraj u Featured Wolf */
+{
+    border: none !important;
+}
+.table img/* obrázyk */
+{
+    border-radius: 0px 100px 100px 100px;
+    border: none !important;
+}
+.left{
+    background: #171d15 !important;
+}
+#bookmarkPage {
+color: #bdcfb0 !important;
+}
